@@ -1,0 +1,13 @@
+CONFIG = {
+    'mode': 'django',
+    'python': '/home/zach/development/django/virtualenv/bin/python',
+    'working_dir': '/home/zach/development/django/demo/demo',
+    'user': 'www-data',
+    'group': 'www-data',
+    'args': (
+        '--bind=0.0.0.0:9000',
+        '--workers=4',
+        '--timeout=30',
+        '--preload',
+    ),
+}
